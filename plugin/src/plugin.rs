@@ -20,7 +20,7 @@ use crate::parsers::PlainSlovak;
 use crate::spell::slovak_dictionary;
 
 /// The `harper-core` this plugin is built against; kept in step with `Cargo.toml`.
-const HARPER_CORE_VERSION: &str = "3.1.0";
+const HARPER_CORE_VERSION: &str = "3.3.0";
 
 pub struct Slovak {
     base: Arc<dyn Dictionary>,
